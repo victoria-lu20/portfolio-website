@@ -1,0 +1,159 @@
+.homeContainer {
+  background: #FFFDF8;
+}
+
+.pageContainer {
+  height: 100%;
+  max-width: 100vw;
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 900px;
+  width: 100%;
+  height: 95%;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  text-align: left;
+  margin-top: 48px;
+}
+
+.content h1 {
+  font-size: 52px;
+  font-weight: 900;
+  color: #FF6F61;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.experienceHeading {
+  margin-top: 36px;
+}
+
+.experienceContent {
+  max-width: 900px;
+}
+
+.experienceItem {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.experienceItem a {
+  color: #FF6F61;
+  text-decoration: underline;
+}
+
+.dottedLine {
+  display: flex;
+  flex: 2;
+  width: 100%;
+  border-top: #666 1px dashed;
+  margin-top: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.paddingLeft {
+  margin-left: 5px;
+}
+
+.description {
+  text-align: center;
+  margin: 36px auto;
+}
+
+.description a {
+  text-decoration: underline;
+}
+
+.typewriter {
+  font-size: 36px;
+  font-weight: 400;
+  color: #FF6F61;
+  margin-top: -20px;
+}
+
+.introductionContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+}
+
+.introductionImage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+
+.introductionImage img {
+  max-height: 90%;
+  width: auto;
+}
+
+.introductionImageContainer {
+  display: none;
+}
+
+.workContent {
+  display: flex;
+  align-items: center;
+}
+
+.workItem {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .introductionImage {
+    display: none;
+  }
+
+  .pageContainer {
+    background-color: #0047AB;
+  }
+
+  .introductionImageContainer {
+    display: flex;
+    background-color: #FF6F61;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .introductionImageContainer img {
+    max-width: 85%;
+    height: auto;
+  }
+
+  .introduction {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 801px) {
+  .pageContainer {
+    background: linear-gradient(90deg, #0047AB 67%, #FF6F61 33%);
+  }
+
+  .introduction {
+    min-width: 500px;
+  }
+}

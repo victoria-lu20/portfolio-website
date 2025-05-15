@@ -1,0 +1,64 @@
+.pageContainer {
+    height: 100vh;
+    max-width: 100vw;
+    background-color: #faf0e6;
+    padding: 2rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 24px;
+    text-align: center;
+    margin-top: 48px;
+  }
+  
+  .content h1 {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  
+  .content h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .experienceHeading {
+    margin-top: 36px;
+  }
+  
+  .experienceItem {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .experienceItem a {
+    color: #0077B5;
+    text-decoration: underline;
+  }
+  
+  .dottedLine {
+    display: flex;
+    flex: 2;
+    width: 100%;
+    border-top: #666 1px dashed;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .paddingLeft {
+    margin-left: 5px;
+  }

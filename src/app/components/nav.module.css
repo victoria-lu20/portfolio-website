@@ -1,0 +1,17 @@
+.navContainer {
+  display: flex;
+}
+
+.navContainer ul {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.navContainer li {
+  color: #FF6F61;
+  padding: 10px;
+  font-size: 16px;
+}
