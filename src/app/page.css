@@ -45,6 +45,7 @@
 
 .experienceContent {
   max-width: 900px;
+  margin-bottom: 50px;
 }
 
 .experienceItem {
@@ -119,6 +120,103 @@
 .workItem {
   display: flex;
   flex-direction: row;
+}
+
+.mainContent {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 900px;
+  padding: 1em;
+  width: 100%;
+}
+
+.engBlurb {
+  flex: 1;
+}
+
+.engBlurb span {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.workButton {
+  position: relative;
+  padding: 16px 20px;
+  border: 1.5px solid #0047AB;
+  border-radius: 4px;
+  max-width: fit-content;
+  display: flex;
+  color: #0047AB;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 24px;
+}
+
+.workButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #0047AB;
+  transition: left 0.5s ease;
+  z-index: 0;
+  color: white;
+}
+
+.workButton svg {
+  position: relative;
+  z-index: 2;
+}
+
+.workButton span {
+  position: relative; 
+  margin-bottom: 0;
+  padding-right: 8px;
+  z-index: 2;
+}
+
+.workButton:hover::after {
+  left: 0;
+}
+
+.workButton:focus::after {
+  left: 0;
+}
+
+.workButton:hover span {
+  color: white;
+}
+
+.workButton:focus span {
+  color: white;
+}
+
+.workButton:hover svg {
+  color: white;
+}
+
+.workButton:focus svg {
+  color: white;
+}
+
+.mainContent h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #FF6F61;
+  margin-bottom: 16px;
 }
 
 @media (max-width: 800px) {
