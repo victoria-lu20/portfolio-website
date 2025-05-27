@@ -12,7 +12,7 @@ export default function Work() {
       <div className="workContentContainer">
         <div className="workTitle">
           <h1>work</h1>
-          <p>the things I've designed + built</p>
+          <p>the things I&#39;ve designed + built</p>
         </div>
         <div className="workProjects">
           <ul className="projectsList">

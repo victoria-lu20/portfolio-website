@@ -119,9 +119,9 @@ export default function Home() {
       <div className="mainContainer">
         <div className="engBlurb">
           <h3>A little about me</h3>
-          <span>Hi! I’m a UI engineer at LinkedIn, building accessible, scalable components that help 800M+ sales professionals connect with the right buyers. I've collaborated closely with cross functional teams on features such as Sales Assistant and Relationship Map, ensuring what we build actually helps people and feels intuitive.</span>
+          <span>Hi! I’m a UI engineer at LinkedIn, building accessible, scalable components that help 800M+ sales professionals connect with the right buyers. I&#39;ve collaborated closely with cross functional teams on features such as Sales Assistant and Relationship Map, ensuring what we build actually helps people and feels intuitive.</span>
           <span>I care a lot about fast + thoughtful user experiences — and love finding that balance between performance and inclusive design. I specialize in modern frontend frameworks like React and Ember, with a strong focus on accessibility, A/B testing, and performance optimization.</span>
-          <span>Feel free to click below and take a look at some of the things I’ve built :)</span>
+          <span>Feel free to click below and take a look at some of the things I&#39;ve built :)</span>
           <Link href="/work" aria-label="View Victoria's portfolio work" className="workButton">
             <span>View my work</span>
             <FaArrowRight/>

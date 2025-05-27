@@ -81,8 +81,8 @@ export default function Homebuddy() {
           <ul>
             <li>contain relevant information that most of the users found necessarily for off-campus housing, including: location, distance, cost, amenities</li>
             <li>show user housing based on preferences</li>
-            <li>enable users to "swipe" on housing they like and be matched with landlords/rental companies</li>
-            <li>provide users with a "favorites" list to document their favorite listings</li>
+            <li>enable users to &#34;swipe&#34; on housing they like and be matched with landlords/rental companies</li>
+            <li>provide users with a &#34;favorites&#34; list to document their favorite listings</li>
           </ul>
           <p className="mt3">Why Did We Choose This?</p>
           <ul>
@@ -145,12 +145,11 @@ export default function Homebuddy() {
           <div className="videoPlay">
             <video autoPlay muted loop>
                 <source src="/homebuddy/contacting.mov" type="video/mp4"/>
-                <p>Your browser doesn't support HTML5 video.</p>
             </video>
           </div>
           <div className="textDescription">
             <h4>03. Contacting Listings</h4>
-            <p>The user can contact landlords and rental companies via the "messages" tab in the right hand corner; this "messages" tab includes all the listings that the user favorited.</p>
+            <p>The user can contact landlords and rental companies via the &#34;messages&#34; tab in the right hand corner; this &#34;messages&#34; tab includes all the listings that the user favorited.</p>
           </div>
         </div>
         </div>
