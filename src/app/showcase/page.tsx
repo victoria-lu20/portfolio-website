@@ -21,7 +21,7 @@ export default function Work() {
       </div>
       <ImageCarousel slides={SLIDES} />
       <div className="showcaseSubtitle">
-        <p>A few of the public-facing features I've helped build on Sales Navigator, such as Relationship Map, Sales Assistant, and Aggregated Buyer Activities, are featured here. Each project reflects cross-functional collaboration and a focus on meaningful outcomes, from driving revenue to boosting weekly active users.</p>
+        <p>A few of the public-facing features I&#39;ve helped build on Sales Navigator, such as Relationship Map, Sales Assistant, and Aggregated Buyer Activities, are featured here. Each project reflects cross-functional collaboration and a focus on meaningful outcomes, from driving revenue to boosting weekly active users.</p>
       </div>
       <Footer />
     </div>
