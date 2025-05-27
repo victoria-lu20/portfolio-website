@@ -1,10 +1,10 @@
 .navContainer {
   display: flex;
+  position: relative;
 }
 
 .navContainer ul {
   display: flex;
-  flex-direction: row;
   margin: auto;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -14,4 +14,23 @@
   color: #FF6F61;
   padding: 10px;
   font-size: 16px;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  color: #FF6F61;
+}
+
+@media (min-width: 451px) {
+  .navContainer ul {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 450px) {
+  .navContainer ul {
+    flex-direction: column;
+  }
 }

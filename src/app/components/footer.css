@@ -1,0 +1,16 @@
+.icon svg {
+  height: 2em;
+  width: 2em;
+}
+
+.footerContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.footer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

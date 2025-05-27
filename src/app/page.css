@@ -145,7 +145,7 @@
 .engBlurb span {
   display: flex;
   flex-direction: column;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .workButton {
@@ -217,6 +217,22 @@
   font-weight: 700;
   color: #FF6F61;
   margin-bottom: 16px;
+}
+
+.footerOnHomepage {
+  margin-bottom: 2em;
+}
+
+.kittyPicture {
+  margin-top: 20px;
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+
+  p {
+    margin-top: 12px;
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 800px) {

@@ -9,6 +9,7 @@ import ReactLenis from 'lenis/react';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { FaArrowRight } from "react-icons/fa";
 import Link from 'next/link';
+import Footer from './components/footer';
 
 // gsap.registerPlugin(ScrollTrigger);
 
@@ -58,7 +59,6 @@ export default function Home() {
   //     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
   //   };
   // }, []);
-
 
   return (
     <ReactLenis root>
@@ -120,7 +120,7 @@ export default function Home() {
         <div className="engBlurb">
           <h3>A little about me</h3>
           <span>Hi! I’m a UI engineer at LinkedIn, building accessible, scalable components that help 800M+ sales professionals connect with the right buyers. I've collaborated closely with cross functional teams on features such as Sales Assistant and Relationship Map, ensuring what we build actually helps people and feels intuitive.</span>
-          <span>I care a lot about fast + thoughtful user experiences — and love finding that balance between performance and inclusive design.</span>
+          <span>I care a lot about fast + thoughtful user experiences — and love finding that balance between performance and inclusive design. I specialize in modern frontend frameworks like React and Ember, with a strong focus on accessibility, A/B testing, and performance optimization.</span>
           <span>Feel free to click below and take a look at some of the things I’ve built :)</span>
           <Link href="/work" aria-label="View Victoria's portfolio work" className="workButton">
             <span>View my work</span>
@@ -128,7 +128,14 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <div className="kittyPicture">
+        <img src="/kitty.png" alt="Image of my cat, Miso - a cinnamon british shorthair" />            
+        <p>hello from my kitty miso! :)</p>
+      </div>
     </section>
+    <div className="footerOnHomepage">
+      <Footer />
+    </div>
     </ReactLenis>
   );
 }
